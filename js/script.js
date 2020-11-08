@@ -2,22 +2,23 @@ let  nav1 = document.getElementsByClassName("nav")[0];
 let  nav2 = document.getElementsByClassName("nav")[1];
 let  nav3 = document.getElementsByClassName("nav")[2];
 
-let pageActuel = window.location.pathname;
+let pageActuel = window.location.pathname.split("/");
+pageActuel = pageActuel[pageActuel.length - 1];
 
 switch(pageActuel) {
-    case "/index.html": {
+    case "index.html": {
         nav1.style.borderBottom = "3px solid white";
         nav1.style.color = "white";
         navEvent(0);
         break;
     }
-    case "/presentation.html": {
+    case "presentation.html": {
         nav2.style.borderBottom = "3px solid white";
         nav2.style.color = "white";
         navEvent(1);
         break;
     }
-    case "/contacts.html": {
+    case "contacts.html": {
         nav3.style.borderBottom = "3px solid white";
         nav3.style.color = "white";
         navEvent(2);
