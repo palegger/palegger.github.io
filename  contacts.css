@@ -1,0 +1,26 @@
+/* label
+{
+    text-align: left;
+}
+
+main > div > form > 
+{
+    color: red;
+}
+
+.test
+{
+    background-color: red;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border: 5px solid #555555;
+    border-radius: 10px;
+} */
+
+main{
+    background-color: blue;
+}

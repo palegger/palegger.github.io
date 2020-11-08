@@ -1,0 +1,111 @@
+/*Import de style de front*/
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+
+body
+{
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+    grid-gap: 15px;
+    height: 100vh;
+    line-height: 1.5;
+    text-align: center;
+    background-color: #333333;
+    color: #ffffff;
+    margin:0px;
+	padding:0px;
+}
+
+header
+{
+    grid-area: header;
+    padding-left: 1%;
+    padding-right: 1%;
+    transition-duration: 0.4s;
+    background-color: #303030;
+    padding-top: 1%;
+    max-height: 70px;
+}
+
+header > h2
+{
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+header > nav
+{
+    float: right;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+header > nav > a
+{
+    color: #555555;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-family: 'Play', sans-serif;
+}
+
+main > div
+{
+    padding: 5%;
+}
+
+main > div > h1
+{
+    font-family: 'Prompt', sans-serif;
+    transition-duration: 0.4s;
+}
+
+main > div > p
+{
+    font-family: 'Poiret One', cursive;
+    font-size: x-large;
+    line-height: 2.6em;
+    margin-top: auto;
+}
+
+img
+{
+    border-radius: 2%;
+}
+
+footer
+{
+    grid-area: footer;
+    margin: auto;
+    padding: 1em;
+    font-family: 'Poiret One', cursive;
+    font-size: large;
+    transition-duration: 0.4s;
+    max-height: 70px;
+}
+
+button 
+{
+    background-color: white;
+    color: black;
+    padding: 16px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border: 5px solid #555555;
+    border-radius: 10px;
+}
+
+a
+{
+    text-decoration:none;
+    color: white;
+}
