@@ -6,7 +6,7 @@ let pageActuel = window.location.pathname.split("/");
 pageActuel = pageActuel[pageActuel.length - 1];
 
 switch(pageActuel) {
-    case "index.html": {
+    case "index.html": case "palegger.github.io": {
         nav1.style.borderBottom = "3px solid white";
         nav1.style.color = "white";
         navEvent(0);

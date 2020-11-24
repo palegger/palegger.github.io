@@ -15,6 +15,7 @@ caption
 th, td 
 {
     padding: 1em;
+    font-family: 'Play', sans-serif;
 }
 
 tr:nth-child(odd)
@@ -51,10 +52,18 @@ ul
 
 .formation > p
 {
-    font-family: 'Poiret One', cursive;
     font-size: x-large;
     line-height: 2.6em;
     margin: auto;
+    font-family: 'Play', sans-serif;
+}
+
+.formation > div > p
+{
+    font-size: x-large;
+    line-height: 2.6em;
+    margin: auto;
+    font-family: 'Play', sans-serif;
 }
 
 .formation

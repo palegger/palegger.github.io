@@ -35,7 +35,7 @@ header
 
 header > h2
 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Play', sans-serif;
     float: left;
     margin-top: auto;
     margin-right: auto;
@@ -44,16 +44,15 @@ header > h2
 header > nav
 {
     float: right;
-    margin-top: auto;
-    margin-right: auto;
+    margin: auto;
 }
 
 header > nav > a
 {
     color: #555555;
-    margin-left: 3px;
-    margin-right: 3px;
     font-family: 'Play', sans-serif;
+    margin-top: auto;
+    margin-right: auto;
 }
 
 main > div
@@ -69,8 +68,8 @@ main > div > h1
 
 main > div > p
 {
-    font-family: 'Poiret One', cursive;
-    font-size: x-large;
+    font-family: 'Prompt', sans-serif;
+    font-size: large;
     line-height: 2.6em;
     margin-top: auto;
 }
